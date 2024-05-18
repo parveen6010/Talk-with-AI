@@ -1,0 +1,76 @@
+.Dashboard {
+    display: flex;
+    flex-direction: column;
+   
+    background-image: url('../img/dashboardBack.png');
+   
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+  height:100vh;
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+
+}
+.bodyContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leftContainer{
+    width: 90vw;
+}
+.rightContainer{
+   position: relative;
+   right: 150px;
+}
+.lower{
+    display: flex;
+    flex-wrap: wrap;
+}
+.playbtn{
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 5px;
+}
+.pausebtn{
+    font-size: 64px;
+    color: white;
+    text-align: center;
+  
+}
+.pauseIcon{
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(55px);
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:35vh;
+    
+}
+.pauseUpper{
+    border: 2px solid #189BFF;
+    border-radius: 50%;
+    padding: 1.5rem;
+    display: flex;
+    background-color: #189BFF;
+}
+.off-pauseIcon{
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(55px);
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:35vh;
+    position: relative;
+    top: 30px;
+
+}

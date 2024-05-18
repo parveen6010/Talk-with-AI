@@ -1,0 +1,163 @@
+.videoComp{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  height:37vh;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin:0rem 2rem;
+  padding: 1rem;
+  background-color: transparent;
+  backdrop-filter: blur(55px);
+  margin-bottom: 50px;
+}
+.off-videocomp{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  height:35vh;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin:2rem;
+  padding: 1rem;
+  background-color: transparent;
+  backdrop-filter: blur(55px);
+  box-sizing: border-box;
+}
+.video video{
+  height: 15vw;
+  /* width: 30vw; */
+  border-radius: 24px;
+  border: 5px solid var(--Pure-White, #FFF);
+}
+.off-video video{
+  height: 25vh;
+  border-radius: 24px;
+  border: 5px solid var(--Pure-White, #FFF);
+}
+.microphone{
+  color: white;
+  font-size: 48px;
+  border: 2px solid red;
+  padding: 2rem;
+  border-radius: 50%;
+  background-color: red;
+}
+.speaker{
+  font-size: 20px;
+}
+/* .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 200px;
+  background: linear-gradient(to bottom, #ff7f00, #ff5500);
+  border-radius: 50px;
+  padding: 20px;
+} */
+.vidIcon{
+  display: none;
+}
+
+
+
+
+
+/* App.css */
+.mainVolConatiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.volContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  background-color: black;
+  padding:5px 5px 8px 5px;
+  border-radius: 10px;
+}
+
+.vol-slider {
+  writing-mode: bt-lr; 
+   -webkit-appearance: slider-vertical; 
+  width: 8px;
+  height: 100px;
+  margin: 15px 0;
+  transform: rotate(0deg);
+}
+
+.speaker {
+  color: #fff;
+  font-size: 24px;
+}
+
+.volText {
+  color: #fff;
+  font-size: 16px;
+}  
+.mic{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mic.listening .microphone {
+  color: rgb(255, 255, 255);
+  border: 2px solid #7cc6ff;
+  padding: 40px;
+  background-color: #7cc6ff;
+  border-radius: 50%;
+}
+
+.mic.not-listening .microphone {
+  color: white;
+  transition: color 0.5s ease-out;
+}
+.lish{
+  color: rgb(211, 52, 52);
+}
+.speh{
+  color: white;
+}
+
+.mic .microphone {
+  transition: color 0.5s ease-in;
+}
+.off-mic{
+  display: none;
+}
+.camera-icon{
+  border: 2px solid red;
+  padding: 28px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2rem;
+  margin-right: 1rem;
+  
+}
+.camera-btn{
+  font-size: 48px;
+  color: white;
+  
+}
+
+
+
+
+
+
+  

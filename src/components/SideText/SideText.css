@@ -1,0 +1,26 @@
+#homeTab{
+    margin-right: 15rem;
+    margin-left: 5rem;
+    margin-top:3rem;
+}
+#wlcm{
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+color: #FFFFFF;
+margin-bottom: 0px;
+padding-bottom: 0px;
+
+}
+#goodcom{
+
+/* width: 724px; */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+color: #FFFFFF;
+
+}
